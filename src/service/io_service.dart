@@ -1,6 +1,8 @@
 import 'dart:io';
 
 class IOService {
+  static var startGame;
+
   const IOService();
 
   void write(String text) => stdout.write(text);

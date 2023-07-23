@@ -6,7 +6,7 @@ class Game {
   IOService io;
   List<String> area = [for (int i = 1; i < 10; i++) '$i '];
 
-  Game(this.io);
+  Game(this.io, startGame);
 
   void startGame() {
     Cross cross = Cross(IOService(), area);
